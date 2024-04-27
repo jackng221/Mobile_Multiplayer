@@ -387,7 +387,7 @@ RectTransform:
   m_Children:
   - {fileID: 7682553}
   - {fileID: 2002817011}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1850346256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -688,7 +688,7 @@ PrefabInstance:
     - target: {fileID: 4393252310969058995, guid: 0570b6f7f713dc44a90463654bbcd8d0,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1185,7 +1185,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 136308196}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1850346257
@@ -1653,6 +1654,5 @@ SceneRoots:
   - {fileID: 2003041488}
   - {fileID: 1238342791}
   - {fileID: 7443408886692473789}
-  - {fileID: 136308196}
   - {fileID: 1850346256}
   - {fileID: 1535266342}
